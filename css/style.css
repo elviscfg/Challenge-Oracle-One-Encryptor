@@ -1,0 +1,122 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+header {
+	padding: 10px 10px;
+    margin: 0 2%;
+    
+}
+
+.box-text-left {
+    vertical-align: top;
+    display: inline-block;
+    width: 70%;
+    margin: 2%;
+    
+}
+
+#text-area1 {
+	width: 100%;
+	vertical-align: top;
+	margin: 2%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+    resize: none;
+    border: none;
+    outline: none;
+    background-color:#F3F5FC;;
+    color: #0A3871;
+}
+
+
+
+p {
+    margin: 0 8%;
+    color: #0A3871;
+    font-size: 14px;
+}
+
+.box-buttons {
+    display: inline-block;
+    width: 100%;
+    margin: 1% 4%;
+}
+
+.buttons-cript {
+    width: 40%;
+    padding: 20px 10px;
+    margin: 0 2%;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 16px;
+    
+}
+
+.color-ciptografar {
+    background-color: #0A3871;
+    color: white;
+}
+
+.color-descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+
+.box-text-right {
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+}
+
+#text-area2 {
+    display: flex;
+	width: 100%;
+	margin: 2%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+    resize: none;
+    border-radius: 50px;
+    cursor: default;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+#text-area2:placeholder-shown {
+    background: url(../img/background-image.png) center center no-repeat;
+    background-color: white;
+}
+
+.copy-button-box {
+    display: flex;
+    width: 100%;
+    margin: 4%;
+    position: relative;
+    left: 5%;
+    bottom: 120px;
+    
+}
+
+.button-copy {
+    width: 80%;
+    padding: 20px 10px;
+    margin: 0 2%;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    color: #0A3871;
+    font-size: 16px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px 0;
+}
